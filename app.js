@@ -1,14 +1,18 @@
-document.addEventListener("DOMContentLoaded", () =>);
+document.addEventListener("DOMContentLoaded", () => {;
    const cardAdj = [
-      {name: "c", img: "images/c.png"}, {name: "cpp", img: "images/cpp.png"}, 
-      {name: "css", img: "images/css.png"}, {name: "fortran", img: "images/fortran.png"},
-      {name: "html", img: "images/html.png"}, {name: "python", img: "images/python.png"},
-      {name: "c", img: "images/c.png"}, {name: "csharp", img: "images/csharp.png"}, 
-      {name: "css", img: "images/css.png"}, {name: "fortran", img: "images/fortran.png"},
-      {name: "html", img: "images/html.png"}, {name: "python", img: "images/python.png"}];
-
-       
-      },
+    { name: "1", img: "imagenes/1.png" },
+    { name: "2", img: "imagenes/2.png" },
+    { name: "3", img: "imagenes/3.png" },
+    { name: "4", img: "imagenes/4.png" },
+    { name: "5", img: "imagenes/5.png" },
+    { name: "6", img: "imagenes/6.png" },
+    { name: "1", img: "imagenes/1.png" },
+    { name: "2", img: "imagenes/2.png" },
+    { name: "3", img: "imagenes/3.png" },
+    { name: "4", img: "imagenes/4.png" },
+    { name: "5", img: "imagenes/5.png" },
+    { name: "6", img: "imagenes/6.png" }
+      
 
    ];
 
@@ -41,3 +45,17 @@ document.addEventListener("DOMContentLoaded", () =>);
  
  function verificarPareja() {
    var cards = document.querySelector();
+
+   function voltearCarta(){
+     var cardId = this.getAttribute("data-id");
+     cartasEscogidas.push(cardAdj[cardId].name);
+     cartasEscogidasId.push(cardId);
+this.setAttribute("src", cardAdj[cardId].img);
+if (cartasEscogidas.length === 2) {
+  setTimeout(verificarPareja, 1500);
+
+}
+   }
+
+   crearTablero();
+  )};
