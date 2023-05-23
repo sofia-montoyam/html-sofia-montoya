@@ -48,7 +48,7 @@ if(opcionUnoId === opcionDosId) {
 cards[opcionUnoId].setAttribute("src", "images/reverso.png");
 cards[opcionDosId].setAttribute("src", "images/reverso.png");
 alert("¡Diste click en las misma carta")
-} else if (cartasEscogidas[0] === cartasEscogidas[1]; 
+} else if (cartasEscogidas[0] === cartasEscogidas[1];
   alert("¡Correcto!");
   cards[opcionUnoId].setAttribute("src", "images/blank.png");
   cards[opcionDosId].setAttribute("src", "images/blank.png");
